@@ -1,0 +1,469 @@
+body {
+	font-family: 'Oxygen';
+	font-size: 22px;
+	color: #000;
+    background-color: #FFF;
+}
+/*top-info*/
+#top {
+    background-color: #272833;
+    color: #fff;
+    letter-spacing: 1px;
+}
+.call0 {
+    font-size: 15px;
+    padding-left: 40px;
+    padding-top: 5px;
+    font-weight: bold;
+}
+.call0 span a {
+    text-decoration: none;
+    color: #fff;
+}
+.call0 span a:hover {
+    font-size: 1.05em;
+}
+.social-media span a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    letter-spacing: 8px;
+}
+.join a {
+    color: #fff;
+    letter-spacing: 2px;
+    text-decoration: none;
+    font-size: 16px;
+    margin-left: 20px;
+}
+.join a:hover {
+    font-weight: bold;
+    color: #EBEDEF;
+
+}
+/* header */
+#brand {
+    margin-top: 25px;
+    background-position: center;
+}
+#logo-img {
+    width: 5em;
+}
+.brand_name h1 {
+    font-size: 2.3em;
+    text-align: center;
+    color: #fff;
+    text-shadow: 2px 2px 2px #000;
+    padding: 10px 20px 15px 20px;
+    background-color: #272833;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    box-shadow: 10px 10px 10px  #EBEDEF;
+    margin-left: 20px;
+}
+#brand a:hover {
+    text-decoration: none;
+}
+.call {
+    padding-right: 15px;
+    padding-top: 10px;
+    font-size: 20px;
+    color: #CC0000;
+}
+.call:hover {
+    text-shadow: .5px .5px .5px #000;
+    color: #CC0000;
+}
+/*headline*/
+.headline {
+    color: #CC0000;
+    font-weight: 100;
+    margin: 10px 20px 5px 20px;
+}
+
+/*menubar*/
+.nav-item {
+    padding: 0 20px ;
+}
+#navbarNav {
+    background-color: #EBEDEF;    
+    box-shadow: 5px 5px 5px #000;
+}
+.navbar-nav {
+    margin-left: 100px;
+}
+#nav-list a {
+    color: #272833;
+    font-size: .85em;
+    font-weight: 800;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    
+}
+#nav-list a:hover {
+    text-shadow: 1px 0px 1px #272833;
+    background-color: #CC0000;
+    color: #fff;
+}
+/*top-carousel*/
+.top_carousel {
+    margin-top: 20px;
+}
+/*2nd_coursel*/
+.sec_coursel {
+    margin-top: 20px;
+}
+/*imp-point*/
+.imp-point {
+    margin: 20px 0;
+    background-color: #272833;
+    border-style: ridge;
+    box-shadow: 2px 2px 2px #000;
+}
+.imp-tile {
+    text-align: center;
+    padding: 20px;
+    margin: 1px;
+    color: #fff;
+    font-size: 18px;
+}
+.imp-tile div i {
+    padding: 15px;
+    margin: 5px;
+    color: red;
+    background-color: #fff;
+    font-size: 30px;
+    border-radius: 100%;
+    border-style: ridge;
+    width: 60px;
+    text-shadow: 1px 1px #000;
+    box-shadow: 2px 2px 2px #000;
+
+}
+
+/*****      EXTRA LARGE DEVICE ONLY         *****/
+@media (min-width: 1200px) {
+    /*top-info*/
+    .visible {
+            visibility: visible !important;
+    }
+    .invisible {
+            visibility: visible !important;
+    } 
+}
+
+/*****      LARGE DEVICE ONLY           *****/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    /*top-info*/
+    .social-media span a{
+        letter-spacing: 0px;
+    }
+    .social-media span a button {
+        letter-spacing: 1px;
+    }
+    .visible {
+            visibility: visible !important;
+    }
+    .invisible {
+            visibility: visible !important;
+    }
+    /*brand-name*/
+    .brand_name h1 {
+        font-size: 1.8em;
+        text-shadow: 1.5px 1.5px 1.5px #000;
+        box-shadow: 8px 8px 8px  #EBEDEF;
+        padding: 20px;
+        margin-left: 30px;
+    }
+    #logo-img {
+        width: 4.5em;
+    }
+    .call {
+        padding-top: 10px;
+        font-size: 16px;
+        letter-spacing: 0px;
+    }
+
+    /*menubar*/
+    .nav-item {
+        padding: 0 10px ;
+    }
+    .navbar-nav {
+        margin-left: 60px;
+    }
+    #nav-list a {
+        font-size: .80em;
+    }
+    /*imp-tile*/ 
+    .imp-tile {
+        padding: 10px;
+        margin: 1px;
+        font-size: 16px;
+    }
+    .imp-tile div i {
+        padding: 10px;
+        margin: 5px;
+        font-size: 20px;
+        width: 40px;
+    }
+}
+
+/*****      MEDIUM DEVICE ONLY          *****/
+@media (min-width: 768px) and (max-width: 991.98px) {
+    /*top-info*/
+    .social-media span a{
+        letter-spacing: 0px;
+        font-size: 0px;
+    }
+    .social-media span a button {
+        letter-spacing: 0px;
+    }
+    .call0 {
+        padding-left: 30px;
+    }
+    .visible {
+            visibility: hidden !important;
+    }
+    .invisible {
+            visibility: visible !important;
+    }
+    /*brand-name*/
+    .brand_name h1 {
+        font-size: 1.55em;
+        text-shadow: 1.5px 1.5px 1.5px #000;
+        box-shadow: 8px 8px 8px  #EBEDEF;
+        padding: 20px;
+        margin-left: 0px;
+    }
+    #logo-img {
+        width: 5.2em;
+    }
+    .visible {
+        visibility: hidden !important;
+    }
+    .call {
+        font-size: 0px;
+    }
+    .headline {
+        font-weight: 100;
+        margin: 0px 20px 5px 20px;
+    }
+    /*menubar*/
+    .nav-item {
+        padding: 0;
+    }
+    .navbar-nav {
+        margin-left: 0;
+    }
+    #nav-list a {
+        letter-spacing: 3px;
+        text-align: center;
+    }
+    /*sec-coursel*/
+    .sec_coursel .row div{
+        padding: 2px 2px;
+    }
+    /*imp-tile*/ 
+    .imp-tile {
+        padding: 10px;
+        margin: 1px;
+        font-size: 16px;
+    }
+    .imp-tile div i {
+        padding: 10px;
+        margin: 5px;
+        font-size: 20px;
+        width: 40px;
+    }
+
+}
+
+/*****      SMALL DEVICE ONLY       *****/
+@media (min-width: 576px) and (max-width: 767.98px) {
+    /*top-info*/
+    .social-media span a{
+        letter-spacing: 0px;
+        font-size: 0px;
+    }
+    .social-media span a button {
+        letter-spacing: 0px;
+    }
+    .social-media {
+        font-size: 0px;
+    }
+    .call0 {
+        font-size: 0px;
+    }
+    .join a button {
+        font-size: 16px;
+    }
+    .join {
+        text-align: center;
+    }
+    .visible {
+            visibility: hidden !important;
+    }
+    .invisible {
+            visibility: hidden !important;
+    }
+    /*brand-name*/
+    #brand {
+        margin-top: 10px;
+    }    
+    .brand_name h1 {
+        font-size: 1.2em;
+        text-shadow: 1.5px 1.5px 1.5px #000;
+        box-shadow: 6px 6px 6px  #EBEDEF;
+        padding: 15px;
+        margin-left: 0px;
+    }
+    #logo-img {
+        width: 4em;
+    }
+    .visible {
+        visibility: hidden !important;
+    }
+    .call {
+        font-size: 0px;
+    }
+    .headline {
+        font-weight: 100;
+        margin: 0px 20px 5px 20px;
+    }
+    /*menubar*/
+    .nav-item {
+        padding: 0;
+    }
+    .navbar-nav {
+        margin-left: 0;
+    }
+    #nav-list a {
+        font-size: .70em;
+        letter-spacing: 3px;
+        text-align: center;
+    }
+    /*sec-coursel*/
+    .sec_coursel .row div{
+        margin-top: 5px;
+    }
+    /*imp-tile*/ 
+    .imp-tile {
+        padding: 10px;
+        margin: 1px;
+        font-size: 14px;
+    }
+    .imp-tile div i {
+        padding: 10px;
+        margin: 5px;
+        font-size: 18px;
+        width: 40px;
+    }
+}
+
+/*****      EXTRA SUPER SMALL DEVICE ONLY       *****/
+@media (max-width: 575.98px) {
+    /*top-info*/
+
+    .social-media span a{
+        letter-spacing: 0px;
+        font-size: 0px;
+    }
+    .social-media span a button {
+        letter-spacing: 0px;
+    }
+    .social-media {
+        font-size: 0px;
+    }
+    .call0 {
+        font-size: 0px;
+    }
+    .join a button {
+        font-size: 16px;
+    }
+    .join {
+        text-align: center;
+        margin-left: 30px;
+    }
+    .visible {
+            visibility: hidden !important;
+    }
+    .invisible {
+            visibility: hidden !important;
+    }
+    /*brand-name*/
+    #brand {
+        margin-top: 10px;
+    }    
+    .brand_name h1 {
+        font-size: 1em;
+        text-shadow: 1px 1px 1px #000;
+        box-shadow: 6px 6px 6px  #EBEDEF;
+        padding: 15px;
+        margin-left: 0px;
+    }
+    #logo-img {
+        width: 3.5em;
+        margin-top: 10px;
+    }
+    .visible {
+        visibility: hidden !important;
+    }
+    .call {
+        font-size: 0px;
+    }
+    .headline {
+        font-weight: 100;
+        margin: 0px 20px 5px 20px;
+    }  
+    /*menubar*/
+    .nav-item {
+        padding: 0;
+    }
+    .navbar-nav {
+        margin-left: 0;
+    }
+    #nav-list a {
+        font-size: .70em;
+        letter-spacing: 3px;
+        text-align: center;
+    }    
+    /*sec-coursel*/
+    .sec_coursel {
+        margin-top: 2px;
+    }
+    .sec_coursel .row div{
+        margin-top: 2px;
+    }    
+    /*imp-tile*/ 
+    .imp-point div {
+        padding: 0;
+    }
+    .imp-tile {
+        padding: 10px;
+        margin: 1px;
+        font-size: 16px;
+        text-align: center;
+    }
+    .imp-tile div i {
+        padding: 10px;
+        margin: 5px;
+        font-size: 20px;
+        width: 40px;
+    }
+}
+@media (max-width: 445px) {
+    /*brand-name*/
+    #logo-img {
+        width: 2.8em;
+    }
+    .brand_name h1 {
+        font-size: .8em;
+        padding: 10px;
+        margin-left: 8px;
+    }
+    .headline {
+        font-size: 15px;
+    }
+
+
+}

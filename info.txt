@@ -1,0 +1,28 @@
+** Menu **
+
+Home	->Trending	->About		->Contect_Us	-> brand-names ->map	
+Services
+Mobile	-> Brand (Smartphone, basicphone, teblate)	(phone- photo, name, prize, discription)	
+Accesaries -> Types
+Gadgets	-> Brand		
+Testimonials
+For query (mail)
+
+color : white orange blue
+mail : 
+contect no :
+logo : logomaker.thehoth.com/?project=17926202
+
+<div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+        <img src="..." class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="..." class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="..." class="d-block w-100" alt="...">
+    </div>
+  </div>
+</div>
